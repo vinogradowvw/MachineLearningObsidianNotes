@@ -16,7 +16,7 @@ The goal of supervised learning is to find the model (function) that will genera
 
 The problem of the supervised learning typically looks like this:
 Given:
-	$\{ x_{1},x_{2},x_{3}\dots x_{n}\} \subset X\}$ - ***training sample*** (***training set***)
+	$\{ x_{1},x_{2},x_{3}\dots x_{n}\} \subset X \}$ - ***training sample*** (***training set***)
 	$y_{i}=y(x_{i})$ - known labels
 	in other words: $\{(x_{i}, y_{i})\}$ - the set of pairs of $x$ and $y$
  Find:
