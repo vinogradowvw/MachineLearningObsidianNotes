@@ -1,19 +1,7 @@
-# Model
-
-Model (machine learning or predictive model or algorithm) is a parametric function family:
-
-	$A = \{ g(x, \theta)| \theta \in \Theta \}$
-		Here, $\theta$ is a parameter (vector (combination) of parameters) of model and $\Theta$ is a parameter space (all possible combinations of parameters).
-	$g: X \times \Theta \to Y$ - is a concrete function (model) that predicts $Y$
-
-Example:
-	Linear model with vector of parameter $\theta = \{ \theta_{1}, \theta_{2}, \theta_{3}, \dots \theta_{n} \}, \Theta = \mathbb{R}^n$
-[[Regression]]
-$$g(x, \theta) = \sum _{j=1}^n \theta_{j} f_{j}(x); \text{(summation of all features with coefficients)}, Y = \mathbb{R}$$
-[[Classification]]
-$$g(x, \theta) = sign \sum _{j=1}^n \theta_{j} f_{j}(x); \text{(sign of summation of all features with coefficients)}, Y = \{ -1, +1 \}$$
-
-# Training
+---
+aliases:
+  - training
+---
 Training of the model is the process of adjusting the parameters of the model based on the input data, on the out put of which is the trained model.
 
 Formally:
@@ -30,7 +18,6 @@ f_{1}(x_{l})\dots f_{n}(x_{l})
 \end{pmatrix} \to^y \begin{pmatrix}y_{1}\\ \vdots\\y_{l}\end{pmatrix}\end{bmatrix} \to^\mu a
 $$
 Here, $a$ - trained algorithm.
-
 
 
 Most of the time the training is just an optimization problem.
@@ -61,6 +48,7 @@ Previously, in the formal definition of training the $\mu$ was the training proc
 $$
 \mu(X^l) = {\arg\!\min_{a \in A}}\text{ }R_{emp}(a, X^l)
 $$
+
 Example: Least squares
 	The problem is to find a model for **linear regression**:
 		$g(x, \theta) = \sum _{j=1}^n \theta_{j} f_{j}(x)$
@@ -72,6 +60,3 @@ Example: Least squares
 		$\mu(X^l)={\arg\!\min_{a \in A}}\text{ }\sum_{i=1}^l(g(x_{i}, \theta) - y(x))^2)$
 
 This method is most widely used in [[Supervised learning|supervised learning]]. But some other models use other methods for training.
-# Testing
-The testing is a process where by putting new data into model, on the outcome having the prediction.
-// todo  
