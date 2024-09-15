@@ -8,8 +8,7 @@ aliases:
   - loave-one-out
 ---
 Testing is the process of evaluating the performance of a trained model on new data.
-
- After training, we have a model $a$ with parameters $\theta$:
+ After [[Training|training]], we have a model $a$ with parameters $\theta$:
 	 $a = \mu(X^l)$, $X^l$ - training set
 Let $X^t = \{ x_{i} \}^t_{i}$ be the test set with known $y(x_{i}^t): X\to Y$ for every $x_{i}^t$
 Then we can calculate the loss function and empirical risk on test set.

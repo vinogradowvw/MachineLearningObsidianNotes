@@ -1,6 +1,8 @@
 ---
 aliases:
   - training
+  - empirical risk
+  - loss function
 ---
 Training of the model is the process of adjusting the parameters of the model based on the input data, on the out put of which is the trained model.
 
