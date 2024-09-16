@@ -1,4 +1,4 @@
-Linear classifier solving classification problem with following model:
+Linear classifier solving [[Classification]] problem with following model:
 (For simplicity classification into 2 groups will be considered)
 $$g(x, \theta) = sign \sum _{j=1}^n \theta_{j} f_{j}(x); \text{(sign of summation of all features with coefficients)}, Y = \{ -1, +1 \}$$
 or
@@ -24,7 +24,6 @@ $$
 R_{emp} (w) = \sum_{i=1}^l[\langle w, x_{i}\rangle y_{i} < 0] \ll \sum_{i=1}^l\mathcal{L}(\langle w, x_{i}\rangle y_{i}) \to min
 $$
 It is also possible to approximately minimise the **empirical risk** with continuous function.
-
 
 Some models with **continuous loss function**:
 	- [[Support Vector Machine]]
