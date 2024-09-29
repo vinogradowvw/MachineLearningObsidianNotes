@@ -60,5 +60,4 @@ f(w; C) = \frac{1}{\sqrt{ C 2\pi }^n}\exp\left( -\frac{||w||^2}{2C} \right) \\
 -\ln f(w; C) = \frac{1}{2C} ||w||^w + \cancel{const}
 \end{array}{}
 $$
-
 Here $L_{2}$ regularizaion is used and $\frac{1}{C}$ is $\tau$, which generally means that the $\tau$ coefficient reducing the variance of $w$ distribution.

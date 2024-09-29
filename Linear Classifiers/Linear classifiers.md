@@ -27,6 +27,6 @@ It is also possible to approximately minimise the **empirical risk** with contin
 
 Some models with **continuous loss function**:
 	- [[Support Vector Machine]]
-	- [[Logistic Regression]]
+	- [[Logistic regression]]
 	- Neural Networks with sigmoid activation function
 	- [[AdaBoost]] (exponential loss function)

@@ -4,7 +4,7 @@ To implement this the [[Training|loss function]] is modified.
 $$
 \tilde{{\mathcal{L}_{i}}}(w) = {\mathcal{L}_{i}}(w) + \frac{\tau}{2}||w||^2 = {\mathcal{L}_{i}}(w) + \frac{\tau}{2} \sum_{j=1}^n w_{j}^2 \to min
 $$
-[[[Gradient descend methods|Gradient]]:
+[[Gradient descend methods|Gradient]]:
 $$
 \nabla \tilde{{\mathcal{L}_{i}}}(w) = \nabla {\mathcal{L}_{i}}(w) + {\tau} w
 $$
