@@ -4,6 +4,7 @@ aliases:
   - GD
   - SDG
   - SAG
+  - Gradient
 ---
 # Gradient descend (GD)
 The gradient descend method is used to calculate the minimum of [[Training|empirical risk]] with continuous [[Training|loss function]].

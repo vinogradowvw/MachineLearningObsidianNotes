@@ -47,3 +47,14 @@ There is multiple techniques how to make a testing, which allows to notice that 
 			$CV(\mu, X) = \frac{1}{n}\sum_{i=0}^{|N|}\mathcal{L}(\mu(X/N_{i}), N_{i}) \to min$
 
 By minimising any of this metrics the overfitting effect is minimised.
+
+**Possible causes:**
+	Too much features | Not enough objects.
+	Multicollinearity
+
+**Possible effects:**
+	High weights $|w_{j}|$ with different signs. $\implies$ Model is not stable.
+	$R_{emp}(a, X^t) \gg R_{emp}(a, X^l)$
+
+**Basic approach:**
+	[[Regularization]] (weighs decay)

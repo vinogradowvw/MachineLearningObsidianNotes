@@ -17,4 +17,3 @@ $$
 It is is important that ERM has exactly the sum, not the average and $\mathcal{L}$ is continuous in the formula.
 
 To find a minimum of this type of ERM is possible with [[Gradient descend methods]].
-
